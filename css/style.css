@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 	font-size: 16px;
 	color: #000;
 	background-color: #EEEDE9;
@@ -70,54 +70,53 @@ a, select , input , textarea , button{
 .bg-tag-2{
 	background-color: #FBFBFA;
 }
+
 /* fonts */
-.reg-lh-20{
-	font-size: 1.5rem;
+.q-bold-20{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.b-reg-40{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
 	font-weight: 400;
-    line-height: 2.5rem;
 }
 
 .reg-20{
 	font-size: 1.25rem;
 	font-weight: 400;
-    line-height: 1.875rem;
+    line-height: 1.6875rem;
 }
 
-.reg-16{
-	font-size: 1rem;
+.reg-25{
+    font-size: 1.5625rem;
 	font-weight: 400;
+    line-height: 2.5rem;
 }
 
-.reg-18{
-	font-size: 1.125rem;
-	font-weight: 400;
-}
-
-.semi-18{
-	font-size: 1.125rem;
-	font-weight: 600;
-}
-
-
-.semi-20{
-	font-size: 1.5rem;
-	font-weight: 600;
-}
-
-.semi-32{
-	font-size: 2rem;
-	font-weight: 600;
-}
-
-.bold-18{
-	font-size: 1.125rem;
+.bold-20{
+	font-size: 1.25rem;
 	font-weight: 700;
 }
 
-.bold-48{
-	font-size: 3rem;
-	font-weight: 700;
+.blk-50{
+    font-size: 3.125rem;
+	font-weight: 900;
 }
+
+.blk-25{
+    font-size: 1.5625rem;
+	font-weight: 900;
+}
+
+
+.blk-20{
+	font-size: 1.25rem;
+	font-weight: 900;
+}
+
 
 .wshop-font {
     font-family: 'Damion', cursive;
@@ -140,13 +139,18 @@ a, select , input , textarea , button{
 
 .btn-tag-2{
     border: 1px solid #000;
-	border-radius: 1rem;
+	border-radius: 1.2rem;
     box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 4px 6px 2px;
 	color: #000 !important;
 }
 
 .btn-tag-2:hover{
+    border: 1px solid transparent;
 	background-color: #9BC65A;
+}
+
+.btn-tag-2:hover a{
+    color: #fff !important;
 }
 
 .btn-tag-3{
@@ -155,18 +159,19 @@ a, select , input , textarea , button{
 	color: #000;
 }
 
-.btn-tag-3:hover{
+.btn-tag-3:hover {
+    border: 1px solid transparent;
     background-color: #9BC65A;
     color: #fff;
 }
 
 .btn-tag-4{
-	border-radius: 1rem;
+	border-radius: 1.5rem;
 	color: #fff !important;
 }
 
-.btn-4{
-    width: 25%;
+.btn-4 {
+    width: 30%;
 }
 
 .btn-tag-4:hover{
