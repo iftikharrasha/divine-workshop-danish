@@ -4,6 +4,10 @@
 		font-size: 12px;
 	}
 
+	.blk-50 {
+		font-size: 2rem;
+	}
+
 	.reg-25 {
 		font-size: 1.4rem;
 	}
@@ -67,6 +71,11 @@
 
 	.card-height {
 		min-height: auto;
+	}
+
+	.checkbox-options {
+		width: 100%;
+		flex-direction: column;
 	}
 }
 
