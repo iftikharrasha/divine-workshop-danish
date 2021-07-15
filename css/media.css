@@ -60,9 +60,9 @@
 	}
 
 	.wshop-font {
-		font-size: 10rem;
-		right: 0;
-		top: 30rem;
+		font-size: 9rem;
+		top: 32rem;
+		right: 14px;
 	}
 
 	.card-height {
@@ -123,9 +123,9 @@
 	}
 
 	.wshop-font {
-		font-size: 15rem;
+		font-size: 14rem;
+		top: 14rem;
 		right: 4rem;
-		top: 10rem;
 	}
 
 	.card-height {
@@ -182,9 +182,9 @@
 	}
 
 	.wshop-font {
-		font-size: 15rem;
+		font-size: 14rem;
+		top: 14rem;
 		right: 4rem;
-		top: 10rem;
 	}
 
 	.card-height {
@@ -237,9 +237,9 @@
 	}
 
 	.wshop-font {
-		font-size: 22rem;
+		font-size: 20rem;
+		top: 9rem;
 		right: 5rem;
-		top: 2rem;
 	}
 }
 
@@ -264,6 +264,7 @@
   
 /* Extra large devices (large desktops, 1442px and up) */
 @media (min-width: 1532px) and (max-width: 2499.99px) {
+	
 }
 
 /* Extra large devices (large desktops, 1900px and up) */
@@ -289,7 +290,7 @@
 	}
 
 	.wshop-font {
-		right: 20rem;
+		right: 15rem;
 	}
 }
 
@@ -311,12 +312,24 @@
 	.navbar-expand-xs {
 		top: 8rem;
 	}
+	
+	.wshop-font {
+		font-size: 7rem;
+		top: 36rem;
+		right: 0px;
+	}
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
 @media (min-width: 321px) and (max-width: 376px) {
 	.btn-4 {
 		width: 80%;
+	}
+
+	.wshop-font {
+		font-size: 8rem;
+		top: 32rem;
+		right: 7px;
 	}
 }
 
