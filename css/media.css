@@ -306,6 +306,10 @@
 		flex-direction: column;
 		row-gap: 2rem;
 	}
+
+	.ic-2 {
+		padding: 3rem;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

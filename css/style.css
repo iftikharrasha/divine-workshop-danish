@@ -92,6 +92,11 @@ a, select , input , textarea , button{
 	font-weight: 400;
 }
 
+.reg-18{
+	font-size: 1.125rem;
+	font-weight: 400;
+}
+
 .reg-20{
 	font-size: 1.25rem;
 	font-weight: 400;
@@ -124,8 +129,8 @@ a, select , input , textarea , button{
 	font-weight: 700;
 }
 
-.blk-50{
-    font-size: 3.125rem;
+.blk-20{
+	font-size: 1.25rem;
 	font-weight: 900;
 }
 
@@ -134,9 +139,13 @@ a, select , input , textarea , button{
 	font-weight: 900;
 }
 
+.blk-30{
+	font-size: 1.875rem;
+	font-weight: 900;
+}
 
-.blk-20{
-	font-size: 1.25rem;
+.blk-50{
+    font-size: 3.125rem;
 	font-weight: 900;
 }
 
@@ -529,4 +538,18 @@ a, select , input , textarea , button{
 
 .video-img-bg .play-button img {
 	padding: 1.625rem;
+}
+
+/* winkelmand starts */
+.wink{
+    background-color: #F8F7F7;
+	border-radius: 1.2rem;
+}
+
+.pos-r0 {
+    background-color: #C9E1EA;
+    position: absolute;
+    right: 0;
+	border-radius: 1.2rem 0 0 1.2rem;
+    padding: 4rem 2rem;
 }
