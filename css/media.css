@@ -77,6 +77,12 @@
 		width: 100%;
 		flex-direction: column;
 	}
+
+	/* inhoud starts */
+	.inhoud-middle {
+		flex-direction: column;
+		row-gap: 2rem;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -140,6 +146,24 @@
 	.card-height {
 		min-height: auto;
 	}
+
+	/* inhoud starts */
+	.btn-5 {
+		width: 50%;
+	}
+
+	.b5-md{
+		width: 35%;
+	}
+
+	.inhoud-middle {
+		flex-direction: column;
+		row-gap: 2rem;
+	}
+
+	.ic-2 {
+		width: 60%;
+	}
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
@@ -199,6 +223,24 @@
 	.card-height {
 		min-height: auto;
 	}
+
+	/* inhoud starts */
+	.btn-5 {
+		width: 50%;
+	}
+
+	.b5-md{
+		width: 35%;
+	}
+
+	.inhoud-middle {
+		flex-direction: column;
+		row-gap: 2rem;
+	}
+
+	.ic-2 {
+		width: 60%;
+	}
 }
 
 /* Large devices(md) (desktops, 992px and up) */
@@ -241,7 +283,6 @@
 	}
 
 	.opacity-on {
-		/*background-color: #D6B3C8;*/
 		opacity: .5;
 	}
 
@@ -249,6 +290,20 @@
 		font-size: 20rem;
 		top: 9rem;
 		right: 5rem;
+	}
+
+	/* inhoud starts */
+	.btn-5 {
+		width: 75%;
+	}
+
+	.b5-md {
+		width: 45%;
+	}
+
+	.inhoud-middle {
+		flex-direction: column;
+		row-gap: 2rem;
 	}
 }
 
@@ -268,6 +323,15 @@
 
 	.navbar-brand img{
 		width: 70%;
+	}
+
+	.video a .thumb{
+		width: 90% !important;
+	}
+
+	/* inhoud starts */
+	.btn-5 {
+		width: 80%;
 	}
 }
   
@@ -326,6 +390,11 @@
 		font-size: 7rem;
 		top: 36rem;
 		right: 0px;
+	}
+
+	/* inhoud starts */
+	.btn-5 {
+		width: 100%;
 	}
 }
 

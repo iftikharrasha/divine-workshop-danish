@@ -279,7 +279,6 @@ a, select , input , textarea , button{
 .main-content {
 	position: relative;
     margin-left: 25rem;
-    transition: all .4s ease;
 }
 
 .content {
@@ -470,6 +469,12 @@ a, select , input , textarea , button{
     padding: 4rem;
 }
 
+.ic-2 {
+    width: 90%;
+    border-radius: 3rem;
+    margin: 0 auto;
+}
+
 .inhoud-middle{
     display: flex;
     justify-content: space-between;
@@ -486,8 +491,8 @@ a, select , input , textarea , button{
 
 .video-img-bg .play-button {
 	position: absolute;
-	width: 80px;
-	height: 80px;
+	width: 5rem;
+	height: 5rem;
 	border-radius: 50%;
 	background: rgba(179, 182, 200, 0.51);
 	-webkit-transition: .3s all ease;
@@ -501,5 +506,5 @@ a, select , input , textarea , button{
 }
 
 .video-img-bg .play-button img {
-	padding: 26px;
+	padding: 1.625rem;
 }
