@@ -67,19 +67,19 @@
             <!-- Nav items -->
                 <ul class="navbar-nav sidebar mt-4">
                     <li class="nav-item btn-tag-2 mb-4">
-                        <a class="nav-link bold-20 c-tag-4" href="#">Workshops</li>
+                        <a class="nav-link bold-20 c-tag-4" href="#">Workshops
                         </a>
                     </li>
                     <li class="nav-item btn-tag-2 mb-4">
-                        <a class="nav-link bold-20 c-tag-4" href="#">Profiel</li>
+                        <a class="nav-link bold-20 c-tag-4" href="#">Profiel
                         </a>
                     </li>
                     <li class="nav-item btn-tag-2 mb-4 active">
-                        <a class="nav-link bold-20 c-tag-4" href="winkelmand.html">Veel gestelde vragen</li>
+                        <a class="nav-link bold-20 c-tag-4" href="winkelmand.html">Veel gestelde vragen
                         </a>
                     </li>
                     <li class="nav-item btn-tag-2 mb-4">
-                        <a class="nav-link bold-20 c-tag-4" href="#">Reviews</li>
+                        <a class="nav-link bold-20 c-tag-4" href="reviews.html">Reviews
                         </a>
                     </li>
                     <li class="nav-item mr-sm-5 d-sm-none d-block">
@@ -92,7 +92,7 @@
 
     <section class="main-content pt-100 pb-5" id="mainContent">
         <div class="watermark">
-            <p class="wshop-font">Winkelmand</p>
+            <p class="wshop-font wink-font">Winkelmand</p>
         </div>
         <div class="content">
             <div class="container c_custom">
@@ -153,7 +153,7 @@
                                 <br><br>
                                 Vul het contactformulier in voor een belafspraak!</p>
                             <div class="modal-btn mt-5 text-center">
-                                <a class="bg-tag-1 btn-tag-4 blk-20 px-5 py-3" href="#">Contactformulier</a>
+                                <a class="bg-tag-1 btn-tag-4 blk-20 px-5 py-3" href="#" data-toggle="modal" data-target="#winke">Contactformulier</a>
                             </div>
                         </div>
                     </div>
@@ -162,8 +162,8 @@
         </div>
     </section>
 
-    <!-- Popup Modal for ADHD -->
-    <!-- <div class="modal fade modal-1 modal-2" id="adhd" tabindex="-1" role="dialog" aria-labelledby="adhdModalLabel" aria-hidden="true">
+    <!-- Popup Modal for Winke -->
+    <div class="modal fade modal-1 modal-3" id="winke" tabindex="-1" role="dialog" aria-labelledby="winkeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-1" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -171,17 +171,58 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body text-center">
-                    <img src="./img/adhd.jpg" alt="adhd" class="img-fluid">
+                <div class="modal-body" id="step-one">
+                    <h5 class="modal-title b-reg-40 c-tag-1 text-center" id="informatieModalLabel">Contact</h5>
+                    <h2 class="blk-50 text-center mb-5">Contactformulier</h2>
+                    <div class="field form-group form-1 pb-2">
+                        <label for="naam" class="bold-20 c-tag-5"><span></span> <u>Naam</u></label>
+                        <input type="text" class="form-control reg-30 c-tag-6" id="naam" placeholder="Marja de Brabander">
+                    </div>
+                    <div class="field form-group form-1 pb-2">
+                        <label for="email" class="bold-20 c-tag-5"><span></span> <u>Email adres</u></label>
+                        <input type="email" class="form-control reg-30 c-tag-6" id="email" placeholder="Marja19702@hotmail.com">
+                    </div>
+                    <div class="field form-group form-1 pb-2">
+                        <label for="phone" class="bold-20 c-tag-5"><span></span> <u>Telefoonnummer</u></label>
+                        <input type="phone" class="form-control reg-30 c-tag-6" id="phone" placeholder="Marja19702@hotmail.com">
+                    </div>
+                    <div class="field form-group form-1 pb-2">
+                        <label for="naam" class="bold-20 c-tag-5"><span></span> <u>Opmerking/vraag</u></label>
+                        <input type="text" class="form-control reg-30 c-tag-6" id="naam">
+                    </div>
+                    <div class="modal-btn my-5 text-center pb-4">
+                        <a class="bg-tag-1 btn-tag-4 bold-30 px-5 py-3" href="#" id="next-btn-one">Verzenden</a>
+                    </div>
+                </div>
+
+                <div class="modal-body" id="step-two">
+                    <h5 class="modal-title b-reg-40 c-tag-1 text-center" id="informatieModalLabel">Contact</h5>
+                    <h2 class="blk-50 text-center mb-5">Contactformulier</h2>
+                    <div class="done">
+                        <p class="reg-30 text-center">Je aanvraag is verstuurd. We nemen zo snel mogelijk contact met je op!</p>
+                    </div>
+                    <div class="modal-btn my-5 text-center pb-4">
+                        <a class="bg-tag-1 btn-tag-4 bold-30 px-5 py-3" href="#" id="next-btn-two" data-dismiss="modal">Terug naar contact</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        //form event handler
+        const next_button_one = document.getElementById('next-btn-one');
+        next_button_one.addEventListener("click", function(){
+            const step_one_area = document.getElementById('step-one');
+            step_one_area.style.display = "none";
+            const step_two_area = document.getElementById("step-two");
+            step_two_area.style.display = "block";
+        })
+    </script>
 </body>
 </html>

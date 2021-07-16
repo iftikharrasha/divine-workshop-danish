@@ -86,6 +86,27 @@
 		flex-direction: column;
 		row-gap: 2rem;
 	}
+
+	/* winkelmand style */
+	.wshop-font {
+		font-size: 7rem;
+		top: 6rem;
+		right: 1rem;
+	}
+
+	.modal-3 .modal-body {
+		padding: 1rem 2rem;
+	}
+
+	.done p {
+		padding: 7rem 0;
+	}
+
+	/* review starts */
+	.rev-font {
+		top: 6rem;
+		right: 8rem;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -166,6 +187,19 @@
 	.ic-2 {
 		width: 60%;
 	}
+
+	/* winkelmand style */
+	.wshop-font {
+		font-size: 12rem;
+		top: 5rem;
+		right: 1rem;
+	}
+
+	/* review starts */
+	.rev-font {
+		top: 4rem;
+		right: 14rem;
+	}
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
@@ -242,6 +276,19 @@
 	.ic-2 {
 		width: 60%;
 	}
+
+	/* winkelmand starts */
+	.wshop-font {
+		font-size: 12rem;
+		top: 5rem;
+		right: 1rem;
+	}
+
+	/* review starts */
+	.rev-font {
+		top: 4rem;
+		right: 14rem;
+	}
 }
 
 /* Large devices(md) (desktops, 992px and up) */
@@ -310,6 +357,22 @@
 	.ic-2 {
 		padding: 3rem;
 	}
+
+	/* winkelmand style */
+	.wink-font {
+		top: 0;
+		right: 0;
+	}
+	
+	/* review starts */
+	.review-card{
+		min-height: 29rem;
+	}
+
+	.rev-font {
+		top: 0rem;
+		right: 14rem;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -337,6 +400,17 @@
 	/* inhoud starts */
 	.btn-5 {
 		width: 80%;
+	}
+
+	/* winkelmand style */
+	.wink-font {
+		top: 0;
+		right: 0;
+	}
+	
+	/* review starts */
+	.review-card{
+		min-height: 26.95rem;
 	}
 }
   
@@ -401,6 +475,19 @@
 	.btn-5 {
 		width: 100%;
 	}
+
+	/* winkelmand style */
+	.wshop-font {
+		font-size: 7rem;
+		top: 6rem;
+		right: 0;
+	}
+
+	/* review starts */
+	.rev-font {
+		top: 6rem;
+		right: 3rem;
+	}
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
@@ -413,6 +500,19 @@
 		font-size: 8rem;
 		top: 32rem;
 		right: 7px;
+	}
+
+	/* winkelmand style */
+	.wshop-font {
+		font-size: 7rem;
+		top: 6rem;
+		right: 0;
+	}
+
+	/* review starts */
+	.rev-font {
+		top: 6rem;
+		right: 6rem;
 	}
 }
 

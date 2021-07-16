@@ -66,8 +66,13 @@ a, select , input , textarea , button{
 .c-tag-4{
 	color: #333333 !important;
 }
+
 .c-tag-5{
 	color: #707070 !important;
+}
+
+.c-tag-6{
+	color: #000;
 }
 
 /* background */
@@ -107,6 +112,11 @@ a, select , input , textarea , button{
     font-size: 1.5625rem;
 	font-weight: 400;
     line-height: 2.5rem;
+}
+
+.reg-30{
+    font-size: 1.875rem;
+	font-weight: 400;
 }
 
 .bold-15{
@@ -149,6 +159,12 @@ a, select , input , textarea , button{
 	font-weight: 900;
 }
 
+.bj-reg-40{
+    font-family: "Blackjack-Regular";
+    font-size: 2.5rem;
+	font-weight: 400;
+}
+
 .wshop-font {
     font-family: "Blackjack-Regular";
     font-size: 25rem;
@@ -156,6 +172,26 @@ a, select , input , textarea , button{
     top: 8rem;
     right: 8rem;
     color: #E9E2E3;
+}
+
+.wink-font {
+    top: 0;
+    right: 0;
+}
+
+.rev-font {
+    top: -4rem;
+    right: 20rem;
+}
+
+/* forms */
+.form-control:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 0.2rem rgb(155 198 90 / 33%);
+}
+
+.form-1 .form-control {
+    border: 1px solid #707070;
 }
 
 /* buttons */
@@ -315,7 +351,7 @@ a, select , input , textarea , button{
 .content {
     width: 100%;
     position: absolute;
-    z-index: 3;
+    z-index: 2;
 }
 
 .sidenav-toggler {
@@ -506,6 +542,10 @@ a, select , input , textarea , button{
     margin: 0 auto;
 }
 
+.ic-3 {
+    padding: 10rem 4rem;
+}
+
 .inhoud-middle{
     display: flex;
     justify-content: space-between;
@@ -552,4 +592,19 @@ a, select , input , textarea , button{
     right: 0;
 	border-radius: 1.2rem 0 0 1.2rem;
     padding: 4rem 2rem;
+}
+
+#step-two{
+    display: none;
+}
+
+.done p{
+    padding: 8.5rem;
+}
+
+/* reviews */
+.review-card{
+	border: 0.1875rem solid #9BC65A;
+    padding: 3rem;
+	border-radius: 1.2rem;
 }
