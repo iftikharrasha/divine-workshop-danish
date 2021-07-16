@@ -104,8 +104,18 @@ a, select , input , textarea , button{
     line-height: 2.5rem;
 }
 
+.bold-15{
+	font-size: 0.9375rem;
+	font-weight: 700;
+}
+
 .bold-20{
 	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.bold-25{
+    font-size: 1.5625rem;
 	font-weight: 700;
 }
 
@@ -185,6 +195,10 @@ a, select , input , textarea , button{
 
 .btn-4 {
     width: 30%;
+}
+
+.btn-5 {
+    width: 65%;
 }
 
 .btn-tag-4:hover{
@@ -269,6 +283,7 @@ a, select , input , textarea , button{
 }
 
 .content {
+    width: 100%;
     position: absolute;
     z-index: 3;
 }
@@ -445,4 +460,46 @@ a, select , input , textarea , button{
   
 .dropdown-wrapper select::-ms-expand {
     display: none;
+}
+
+/* inhoud starts */
+.inhoud-card{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 1.2rem;
+    padding: 4rem;
+}
+
+.inhoud-middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-button img {
+	border-radius: 1.2rem;
+}
+
+.video-img-bg {
+	display: block;
+	position: relative;
+}
+
+.video-img-bg .play-button {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: rgba(179, 182, 200, 0.51);
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.video-img-bg .play-button img {
+	padding: 26px;
 }
