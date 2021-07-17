@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Scherm</title>
+
+    <!-- Fonts awesome icons kit -->
+    <script src="https://kit.fontawesome.com/9dbb72da13.js" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header class="header bg-tag-2">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand navbar-light">
+                <a class="navbar-brand" href="index.html" id="brand">
+                    <img src="./img/logo.png" class="img-fluid" alt="logo">
+                </a>
+
+                <div class="collapse navbar-collapse menu">
+                    <ul class="navbar-nav ml-auto align-items-center">
+                        <li class="nav-item mr-sm-5 d-sm-block d-none">
+                            <a class="nav-link bg-tag-1 btn-tag-1 blk-25 px-4" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mr-sm-3">
+                            <a class="nav-link profiel bg-tag-1" href="#">
+                                <p class="blk-20 c-tag-6">M</p>
+                            </a>
+                        </li>
+                        <li class="nav-item mr-sm-4">
+                            <a class="nav-link" href="#">
+                                <img src="./img/cart.svg" class="img-fluid" alt="">
+                            </a>
+                        </li>
+
+                        <!-- Sidenav toggler -->
+                        <li class="nav-item d-xl-none">
+                          <div class="pr-sm-3 pl-3 sidenav-toggler sidenav-toggler-dark" id="toggler-bars">
+                            <div class="sidenav-toggler-inner" onclick="toggleBars()">
+                              <i class="sidenav-toggler-line"></i>
+                              <i class="sidenav-toggler-line"></i>
+                              <i class="sidenav-toggler-line"></i>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <aside class="sidenav navbar-expand-xs navbar-light" id="sidenav-main">
+        <div class="navbar-inner px-4">
+            <p class="c-tag-1 b-reg-40">MENU</p>
+            <!-- Collapse -->
+            <div class="collaps navbar-collaps">
+            <!-- Nav items -->
+                <ul class="navbar-nav sidebar mt-4">
+                    <li class="nav-item btn-tag-2 mb-4">
+                        <a class="nav-link bold-20 c-tag-4" href="#">Workshops
+                        </a>
+                    </li>
+                    <li class="nav-item btn-tag-2 mb-4">
+                        <a class="nav-link bold-20 c-tag-4" href="profiel.html">Profiel
+                        </a>
+                    </li>
+                    <li class="nav-item btn-tag-2 mb-4">
+                        <a class="nav-link bold-20 c-tag-4" href="winkelmand.html">Veel gestelde vragen
+                        </a>
+                    </li>
+                    <li class="nav-item btn-tag-2 mb-4">
+                        <a class="nav-link bold-20 c-tag-4" href="reviews.html">Reviews
+                        </a>
+                    </li>
+                    <li class="nav-item mr-sm-5 d-sm-none d-block">
+                        <a class="nav-link bg-tag-1 btn-tag-1 bold-20 px-4" href="index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+    <section class="main-content pt-100 pb-5" id="mainContent">
+        <div class="watermark">
+            <p class="wshop-font">Workshop</p>
+        </div>
+        <div class="content">
+            <div class="container c_custom">
+                <div class="row my-lg-0 mb-lg-5 my-5">
+                    <div class="col-xl-8">
+                        <div class="workshop-top text-center mt-lg-0 mt-sm-5 mt-0 pb-5">
+                            <h2 class="blk-50">Omgaan met ADHD</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-10 pr-0">
+                        <div class="inhoud-card">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-begin" role="tabpanel" aria-labelledby="v-pills-begin-tab">
+                                    <h3 class="blk-30">Begin</h3>
+                                    <div class="lesson-details">
+                                        <div class="video m-auto py-4">
+                                            <a data-fancybox href="#myVideo" class="video-button video-img-bg">
+                                                <span class="play-button">
+                                                    <img src="img/play.svg" alt="play" class="img-fluid">
+                                                </span>
+                                                <img src="./img/inhoud-thumb.jpg" alt="inhoud-video" class="img-fluid w-100 thumb">
+                                            </a>
+                                            <video width="1280" height="720" controls id="myVideo" style="display:none;">
+                                                <source src="./video/intro.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <p class="reg-25">Hi! Welkom bij de workshop over hoe je met omgaan met ADHD. We willen je graag begeleiden met dit proces en jou tips geven wat je kunt doen samen met jouw kind.</p>
+                                    </div>
+                                    <div class="modal-btn my-5 text-center">
+                                        <a class="bg-tag-1 btn-tag-4 bold-20 px-5 py-3" href="#">Download werkboek</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-lone" role="tabpanel" aria-labelledby="v-pills-lone-tab">
+                                    <h3 class="blk-30">Les 1 - Wat is ADHD?</h3>
+                                    <div class="lesson-details">
+                                        <div class="video m-auto py-4">
+                                            <a data-fancybox href="#myVideo" class="video-button video-img-bg">
+                                                <span class="play-button">
+                                                    <img src="img/play.svg" alt="play" class="img-fluid">
+                                                </span>
+                                                <img src="./img/les-one.jpg" alt="les-one" class="img-fluid w-100 thumb">
+                                            </a>
+                                            <video width="1280" height="720" controls id="myVideo" style="display:none;">
+                                                <source src="./video/intro.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <p class="reg-25">De diagnose ADHD is gesteld bij jouw kind, maar wat is het nou precies? We willen je het graag uitleggen wat er in jouw kind zijn of haar hoofd rond gaat. Bekijk module 1 op het werkblad en bekijk de video</p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-ltwo" role="tabpanel" aria-labelledby="v-pills-ltwo-tab">
+                                    <h3 class="blk-30 mb-5">Les 2 - Mijn kind en ADHD</h3>
+                                    <div class="lesson-details py-4">
+                                        <audio controls class="w-100">
+                                            <source src="./audio/clapps.mp3" type="audio/mp3">
+                                        </audio>
+                                        <p class="reg-25 mt-5">Nu je weet wat ADHD inhoud gaan we kijken naar de huidige situatie van jouw kind. Hoe kan jouw kind ADHD zelf onder controle krijgen wanneer ze op school zijn? Luister samen met jouw kind naar dit fragment</p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-eind" role="tabpanel" aria-labelledby="v-pills-eind-tab">
+                                    <h3 class="blk-30">Eind</h3>
+                                    <div class="lesson-details">
+                                        <div class="video m-auto py-4">
+                                            <a data-fancybox href="#myVideo" class="video-button video-img-bg">
+                                                <span class="play-button">
+                                                    <img src="img/play.svg" alt="play" class="img-fluid">
+                                                </span>
+                                                <img src="./img/eind.jpg" alt="inhoud-video" class="img-fluid w-100 thumb">
+                                            </a>
+                                            <video width="1280" height="720" controls id="myVideo" style="display:none;">
+                                                <source src="./video/intro.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <p class="reg-25">Bedankt! Hopelijk heb je veel gehad aan onze begeleiding. Wil je jouw weg vervolgen? Kom langs bij onze praktijk en wij willen je graag verder begeleiden.</p>
+                                    </div>
+                                    <div class="modal-btn my-5 text-center">
+                                        <a class="bg-tag-1 btn-tag-4 bold-20 px-5 py-3" href="#">Neem contact op</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 pl-0">
+                        <ul class="lessons">
+                            <li class="nav flex-column nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <h4 class="nav-link blk-20 c-tag-0">Lessen</h4>
+                                <a class="nav-link blk-20 c-tag-6 active" id="v-pills-begin-tab" data-toggle="pill" href="#v-pills-begin" role="tab" aria-controls="v-pills-begin" aria-selected="true">Begin</a>
+                                <a class="nav-link blk-20 c-tag-6" id="v-pills-lone-tab" data-toggle="pill" href="#v-pills-lone" role="tab" aria-controls="v-pills-lone" aria-selected="false">Les 1</a>
+                                <a class="nav-link blk-20 c-tag-6" id="v-pills-ltwo-tab" data-toggle="pill" href="#v-pills-ltwo" role="tab" aria-controls="v-pills-ltwo" aria-selected="false">Les 2</a>
+                                <a class="nav-link blk-20 c-tag-6" id="v-pills-eind-tab" data-toggle="pill" href="#v-pills-eind" role="tab" aria-controls="v-pills-ltwo" aria-selected="false">Eind</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -72,7 +72,7 @@ a, select , input , textarea , button{
 }
 
 .c-tag-6{
-	color: #000;
+	color: #000 !important;
 }
 
 /* background */
@@ -649,4 +649,28 @@ a, select , input , textarea , button{
     height: 0.1875rem;
     position: absolute;
     bottom: 0;
+}
+
+/* workshop scherm starts*/
+.lesson-details .video{
+    width: 85%;
+}
+
+.lessons{
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 4px 6px 2px;
+}
+
+.lessons .nav-pills .nav-link:first-child {
+    background-color: #9BC65A;
+    border: 1px solid transparent;
+}
+
+.lessons .nav-pills .nav-link {
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+}
+
+.lessons .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #E2DDDD;
+    border: 3px solid #000000;
 }
