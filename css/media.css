@@ -200,6 +200,11 @@
 		top: 4rem;
 		right: 14rem;
 	}
+
+	/* Profiel starts */
+	.ch-2 {
+		min-height: 5rem;
+	}
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
@@ -289,6 +294,11 @@
 		top: 4rem;
 		right: 14rem;
 	}
+
+	/* Profiel starts */
+	.ch-2 {
+		min-height: 5rem;
+	}
 }
 
 /* Large devices(md) (desktops, 992px and up) */
@@ -373,6 +383,11 @@
 		top: 0rem;
 		right: 14rem;
 	}
+
+	/* Profiel starts */
+	.ch-2 {
+		min-height: 4rem;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -411,6 +426,11 @@
 	/* review starts */
 	.review-card{
 		min-height: 26.95rem;
+	}
+
+	/* Profiel starts */
+	.ch-2 {
+		min-height: 5rem;
 	}
 }
   
