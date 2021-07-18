@@ -785,3 +785,25 @@ a, select , input , textarea , button{
     top: -7.5rem;
     border-radius: 1.5rem 1.5rem 0 0;
 }
+
+.footer{
+    background-color: #fff;
+    padding: 4rem;
+}
+
+.social-icons li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9BC65A;
+    margin-right: 1rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.social-icons li a {
+    font-size: 1.5rem;
+    color: #fff;
+}
