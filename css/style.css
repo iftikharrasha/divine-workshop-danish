@@ -1,3 +1,7 @@
+/* Font Awesome font  */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
 	font-family: "Blackjack-Regular";
 	src: url(../font/BLACKJAR.TTF);
@@ -91,10 +95,11 @@ a, select , input , textarea , button{
 	font-weight: 700;
 }
 
-.b-reg-40{
+.b-reg-40 {
     font-family: 'Bebas Neue', cursive;
     font-size: 2.5rem;
-	font-weight: 400;
+    font-weight: 400;
+    letter-spacing: .3rem;
 }
 
 .reg-18{
@@ -117,6 +122,12 @@ a, select , input , textarea , button{
 .reg-30{
     font-size: 1.875rem;
 	font-weight: 400;
+}
+
+.reg-40 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3.2rem;
 }
 
 .bold-15{
@@ -159,6 +170,11 @@ a, select , input , textarea , button{
 	font-weight: 900;
 }
 
+.blk-80{
+    font-size: 5rem;
+	font-weight: 900;
+}
+
 .bj-reg-40{
     font-family: "Blackjack-Regular";
     font-size: 2.5rem;
@@ -179,9 +195,9 @@ a, select , input , textarea , button{
     right: 0;
 }
 
-.rev-font {
-    top: -4rem;
-    right: 20rem;
+.aan-font {
+    top: 8rem;
+    left: 8rem;
 }
 
 /* forms */
@@ -422,7 +438,7 @@ a, select , input , textarea , button{
     height: 100vh;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: -1;
 }
 
 .question input, .question select{
@@ -534,6 +550,7 @@ a, select , input , textarea , button{
     width: 100%;
     border-radius: 1.2rem;
     padding: 4rem;
+    min-height: 37.5rem;
 }
 
 .ic-2 {
@@ -574,6 +591,10 @@ a, select , input , textarea , button{
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
+}
+
+.video-img-bg:hover .play-button {
+    background: rgb(155 198 90);
 }
 
 .video-img-bg .play-button img {
@@ -656,8 +677,10 @@ a, select , input , textarea , button{
     width: 85%;
 }
 
-.lessons{
+.lessons {
     box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 4px 6px 2px;
+    position: relative;
+    top: 7rem;
 }
 
 .lessons .nav-pills .nav-link:first-child {
@@ -673,4 +696,33 @@ a, select , input , textarea , button{
 .lessons .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     background-color: #E2DDDD;
     border: 3px solid #000000;
+}
+
+/* hero starts */
+.hero-head {
+    position: relative;
+    z-index: 999;
+    background-color: #fbfbfab3;
+}
+
+.hero-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left {
+    width: 48%;
+}
+
+.hero-right{
+    
+}
+
+.hero-right img {
+    position: absolute;
+    right: 0;
+    top: -11.25rem;
+    width: 47%;
+    border-radius: 0 0 0 3rem;
 }

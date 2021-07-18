@@ -102,10 +102,18 @@
 		padding: 7rem 0;
 	}
 
-	/* review starts */
-	.rev-font {
-		top: 6rem;
-		right: 8rem;
+	/* workshop scherm starts*/
+	.lessons {
+		width: 70%;
+		margin: 0 auto;
+		margin-bottom: 2rem;
+		top: 0;
+	}
+
+	/* hero starts */
+	.hero-left {
+		margin-top: 2rem;
+		width: 100%;
 	}
 }
 
@@ -195,15 +203,23 @@
 		right: 1rem;
 	}
 
-	/* review starts */
-	.rev-font {
-		top: 4rem;
-		right: 14rem;
-	}
-
 	/* Profiel starts */
 	.ch-2 {
 		min-height: 5rem;
+	}
+
+	/* workshop scherm starts*/
+	.lessons {
+		width: 40%;
+		margin: 0 auto;
+		margin-bottom: 2rem;
+		top: 0;
+	}
+
+	/* hero starts */
+	.hero-left {
+		margin-top: 2rem;
+		width: 100%;
 	}
 }
 
@@ -289,15 +305,23 @@
 		right: 1rem;
 	}
 
-	/* review starts */
-	.rev-font {
-		top: 4rem;
-		right: 14rem;
-	}
-
 	/* Profiel starts */
 	.ch-2 {
 		min-height: 5rem;
+	}
+
+	/* workshop scherm starts*/
+	.lessons {
+		width: 40%;
+		margin: 0 auto;
+		margin-bottom: 2rem;
+		top: 0;
+	}
+
+	/* hero starts */
+	.hero-left {
+		margin-top: 2rem;
+		width: 100%;
 	}
 }
 
@@ -379,14 +403,15 @@
 		min-height: 29rem;
 	}
 
-	.rev-font {
-		top: 0rem;
-		right: 14rem;
-	}
-
 	/* Profiel starts */
 	.ch-2 {
 		min-height: 4rem;
+	}
+
+	/* hero starts */
+	.hero-left {
+		margin-top: 4rem;
+		width: 100%;
 	}
 }
 
@@ -502,12 +527,6 @@
 		top: 6rem;
 		right: 0;
 	}
-
-	/* review starts */
-	.rev-font {
-		top: 6rem;
-		right: 3rem;
-	}
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
@@ -527,12 +546,6 @@
 		font-size: 7rem;
 		top: 6rem;
 		right: 0;
-	}
-
-	/* review starts */
-	.rev-font {
-		top: 6rem;
-		right: 6rem;
 	}
 }
 
