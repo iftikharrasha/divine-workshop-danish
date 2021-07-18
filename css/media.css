@@ -115,6 +115,52 @@
 		margin-top: 2rem;
 		width: 100%;
 	}
+
+	.aan-font {
+		top: 11rem;
+		left: 5rem;
+	}
+	
+	.hero-right img {
+		top: 0;
+		width: 55%;
+	}
+
+	.overhet-wrapper {
+		padding: 4rem 2rem;
+		border-radius: 1.5rem;
+	}
+
+	.reg-40 {
+		font-size: 1.8rem;
+		line-height: 3rem;
+	}
+
+	.blk-80 {
+		font-size: 3.4rem;
+		font-weight: 900;
+	}
+
+	.bold-50 {
+		font-size: 2.5rem;
+	}
+
+	.bold-70 {
+		font-size: 2.8rem;
+	}
+
+	.reg-35 {
+		font-size: 1.8rem;
+	}
+	
+	.woord-right img {
+		position: static;
+		margin-top: 4rem;
+	}
+
+	.q-bold-40 {
+		font-size: 1.5rem;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -208,6 +254,10 @@
 		min-height: 5rem;
 	}
 
+	.ch{
+		min-height: 7.2rem;
+	}
+
 	/* workshop scherm starts*/
 	.lessons {
 		width: 40%;
@@ -220,6 +270,27 @@
 	.hero-left {
 		margin-top: 2rem;
 		width: 100%;
+	}
+
+	.aan-font {
+		top: 11rem;
+	}
+
+	.hero-right img {
+		top: -5.25rem;
+	}
+
+	.bold-70 {
+		font-size: 3.375rem;
+	}
+	
+	.woord-right img {
+		position: static;
+		margin-top: 4rem;
+	}
+
+	.q-bold-40 {
+		font-size: 1.8rem;
 	}
 }
 
@@ -310,6 +381,10 @@
 		min-height: 5rem;
 	}
 
+	.ch{
+		min-height: 7.2rem;
+	}
+
 	/* workshop scherm starts*/
 	.lessons {
 		width: 40%;
@@ -322,6 +397,27 @@
 	.hero-left {
 		margin-top: 2rem;
 		width: 100%;
+	}
+
+	.aan-font {
+		top: 11rem;
+	}
+
+	.hero-right img {
+		top: -5.25rem;
+	}
+
+	.bold-70 {
+		font-size: 3.375rem;
+	}
+	
+	.woord-right img {
+		position: static;
+		margin-top: 4rem;
+	}
+
+	.q-bold-40 {
+		font-size: 1.8rem;
 	}
 }
 
@@ -412,6 +508,14 @@
 	.hero-left {
 		margin-top: 4rem;
 		width: 100%;
+	}
+
+	.bold-50 {
+		font-size: 2.5rem;
+	}
+
+	.q-bold-40 {
+		font-size: 2rem;
 	}
 }
 
@@ -527,6 +631,33 @@
 		top: 6rem;
 		right: 0;
 	}
+
+	/* herp starts */
+	.aan-font {
+		top: 11rem;
+		left: 5rem;
+	}
+
+	.hero-left {
+		margin-top: 0;
+	}
+	
+	.blk-80 {
+		font-size: 3rem;
+	}
+
+	.reg-35 {
+		font-size: 1.7rem;
+		line-height: 2.5rem;
+	}
+
+	.bold-50 {
+		font-size: 2rem;
+	}
+
+	.q-bold-40 {
+		font-size: 1.2rem;
+	}
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
@@ -546,6 +677,20 @@
 		font-size: 7rem;
 		top: 6rem;
 		right: 0;
+	}
+
+	/*hero starts */
+	.aan-font {
+		top: 11rem;
+		left: 5rem;
+	}
+
+	.hero-left {
+		margin-top: 1rem;
+	}
+
+	.q-bold-40 {
+		font-size: 1.2rem;
 	}
 }
 

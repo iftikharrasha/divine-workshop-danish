@@ -95,10 +95,20 @@ a, select , input , textarea , button{
 	font-weight: 700;
 }
 
+.q-bold-40{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+	font-weight: 700;
+}
+
 .b-reg-40 {
     font-family: 'Bebas Neue', cursive;
     font-size: 2.5rem;
     font-weight: 400;
+    letter-spacing: .1rem;
+}
+
+.br40-ls {
     letter-spacing: .3rem;
 }
 
@@ -124,6 +134,12 @@ a, select , input , textarea , button{
 	font-weight: 400;
 }
 
+.reg-35{
+    font-size: 2.1875rem;
+	font-weight: 400;
+    line-height: 2.8rem;
+}
+
 .reg-40 {
     font-size: 2.5rem;
     font-weight: 400;
@@ -147,6 +163,16 @@ a, select , input , textarea , button{
 
 .bold-30{
 	font-size: 1.875rem;
+	font-weight: 700;
+}
+
+.bold-50{
+	font-size: 3.125rem;
+	font-weight: 700;
+}
+
+.bold-70{
+	font-size: 4.375rem;
 	font-weight: 700;
 }
 
@@ -178,6 +204,12 @@ a, select , input , textarea , button{
 .bj-reg-40{
     font-family: "Blackjack-Regular";
     font-size: 2.5rem;
+	font-weight: 400;
+}
+
+.bj-reg-70{
+    font-family: "Blackjack-Regular";
+	font-size: 4.375rem;
 	font-weight: 400;
 }
 
@@ -699,6 +731,10 @@ a, select , input , textarea , button{
 }
 
 /* hero starts */
+.hero{
+    position: relative;
+}
+
 .hero-head {
     position: relative;
     z-index: 999;
@@ -715,14 +751,37 @@ a, select , input , textarea , button{
     width: 48%;
 }
 
-.hero-right{
-    
-}
-
 .hero-right img {
     position: absolute;
     right: 0;
-    top: -11.25rem;
+    top: -6.25rem;
     width: 47%;
     border-radius: 0 0 0 3rem;
+}
+
+.card-hero {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.card-hero .card-img-top, .card-hero .card-body {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.overhet-wrapper {
+    background-color: #fff;
+    padding: 4rem;
+    border-radius: 2rem;
+}
+
+.overhet-wrapper .btn-tag-3{
+    border: 2px solid #000;
+    border-radius: 1rem;
+}
+
+.woord-right img {
+    position: absolute;
+    top: -7.5rem;
+    border-radius: 1.5rem 1.5rem 0 0;
 }
