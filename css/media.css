@@ -166,8 +166,8 @@
 		font-size: 3.5rem;
 	}
 
-	.footer {
-		padding: 4rem 1rem;
+	.foot-img img {
+		width: 40%;
 	}
 }
 
@@ -300,6 +300,10 @@
 	.q-bold-40 {
 		font-size: 1.8rem;
 	}
+
+	.foot-img img {
+		width: 20%;
+	}
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
@@ -427,6 +431,10 @@
 	.q-bold-40 {
 		font-size: 1.8rem;
 	}
+
+	.foot-img img {
+		width: 20%;
+	}
 }
 
 /* Large devices(md) (desktops, 992px and up) */
@@ -525,6 +533,10 @@
 	.q-bold-40 {
 		font-size: 2rem;
 	}
+
+	.foot-img img {
+		width: 15%;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -568,6 +580,10 @@
 	/* Profiel starts */
 	.ch-2 {
 		min-height: 5rem;
+	}
+
+	.foot-img img {
+		width: 10%;
 	}
 }
   

@@ -50,6 +50,11 @@ a, select , input , textarea , button{
 .pt-100{
     padding-top: 6.25rem;
 }
+
+.mt-200{
+    margin-top: 12.5rem;
+}
+
 /* colors */
 .c-tag-0{
 	color: #fff;
@@ -788,7 +793,7 @@ a, select , input , textarea , button{
 
 .footer{
     background-color: #fff;
-    padding: 4rem;
+    padding: 4rem 1rem 0 1rem;
 }
 
 .social-icons li {
